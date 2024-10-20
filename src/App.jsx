@@ -41,6 +41,11 @@ function App() {
   return (
     <>
       <div className="bg-black h-screen">
+        <div className="flex items-center justify-between"> 
+          <h1 className="text-white text-3xl">Password Generator</h1>
+        <h1 className="text-white p-4 text-3xl">By Venugopal</h1>
+        </div>
+        
         <div className="bg-black text-orange-500  px-4 p-[30px] overflow-auto h-screen  rounded-lg   w-full  ">
           <h1 className="text-center text-5xl font-extrabold py-[30px]">Password Generater</h1>
           <div className="flex shadow  rounded-lg pb-6  justify-center overflow-hidden mb-4 ">
@@ -100,6 +105,7 @@ function App() {
             </ul>
           </div>
         </div>
+
       </div>
     </>
   );
